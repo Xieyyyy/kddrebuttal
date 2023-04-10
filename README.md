@@ -50,7 +50,7 @@ These compared studies are:
 > 14. TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ICLR, 2023. ([paper](https://openreview.net/forum?id=ju_Uqw384Oq))
 
 
-These studies include Transformer based methods (2,4,5,6,7,8,9,and 12), convolutional neural networks based methods (1,10, and 14), 
+These studies include Transformer based methods (2, 4, 5, 6, 7, 8, 9,and 12), convolutional neural networks based methods (1, 10, and 14), 
 neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13). 
 
 
