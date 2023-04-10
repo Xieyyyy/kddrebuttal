@@ -54,9 +54,11 @@ These studies include Transformer based methods (2, 4, 5, 6, 7, 8, 9,and 12), co
 neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13).
 We have rewritten the code of 1 and 3 to perform our experiments, the rest of the code is taken directly from this benchmark.
 
-These experiments are conducted on 9 datasets: illness, stock, electricity, traffic, weather, ETT series (contains 4). 
+These experiments are conducted on 9 datasets: illness, stock (no public source for now), electricity, traffic, weather, ETT series (contains 4 datasets). 
 These datasets can be directly obtained in ([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
-The stock data is available at ([link](https://www.csmar.com/channels/31.html)). 
+
+The detailed performance comparison:
+![Results](img.png)
 
 
 
