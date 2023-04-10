@@ -29,6 +29,30 @@ These compared studies are:
 
 > 4. Informer: Beyond efficient transformer for long sequence time-series forecasting. AAAI, 2021. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325))
 
+> 5. Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting. NeurIPS, 2021.([paper](https://arxiv.org/pdf/2106.13008.pdf))
+
+> 6. Pyraformer: Low-complexity pyramidal attention for long-range time series modeling and forecasting. ICLR, 2022. ([paper](https://openreview.net/forum?id=0EXmFzUn5I))
+
+> 7. FEDformer: Frequency enhanced decomposed transformer for long-term series forecasting. ICML, 2022. ([paper](https://arxiv.org/pdf/2201.12740.pdf))
+
+> 8. Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting. NeurIPS, 2022. ([paper](https://openreview.net/forum?id=ucNDIDRNjjv))
+
+> 9. Etsformer: Exponential smoothing transformers for time-series forecasting. NeurIPS, 2022. ([paper](https://openreview.net/forum?id=5m_3whfo483))
+
+> 10. MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting. ICLR, 2023. ([paper](https://openreview.net/forum?id=zt53IDUR1U))
+
+> 11. Are Transformers Effective for Time Series Forecasting? AAAI, 2023. ([paper](https://arxiv.org/abs/2205.13504))
+
+> 12. Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting. ICLR, 2023. ([paper](https://openreview.net/forum?id=vSVLM2j9eie))
+
+> 13. Less is more: Fast multivariate time series forecasting with light sampling-oriented mlp structures. Arxiv, 2022. ([paper](https://arxiv.org/abs/2207.01186))
+
+> 14. TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ICLR, 2023. ([paper](https://openreview.net/forum?id=ju_Uqw384Oq))
+
+
+These studies include Transformer based methods (2,4,5,6,7,8,9,and 12), convolutional neural networks based methods (1,10, and 14), 
+neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13). 
+
 
 
  
