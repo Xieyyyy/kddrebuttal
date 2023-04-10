@@ -51,7 +51,8 @@ These compared studies are:
 
 
 These studies include Transformer based methods (2, 4, 5, 6, 7, 8, 9,and 12), convolutional neural networks based methods (1, 10, and 14), 
-neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13). 
+neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13).
+We have rewritten the code of 1 and 3 to perform our experiments, the rest of the code is taken directly from this benchmark
 
 
 
