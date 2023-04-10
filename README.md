@@ -16,7 +16,7 @@ Sperifically, we conduct three types of supplementary experiments:
 
 ## Supplementary performance comparisons
 
-We have utilized a fair third party benchmark that is publicly accessible [link](https://github.com/thuml/Time-Series-Library) to compare 14 influential time series forecasting 
+We have utilized a fair third party benchmark that is publicly accessible ([link](https://github.com/thuml/Time-Series-Library)) to compare 14 influential time series forecasting 
 studies that has been presented in recent years on 9 datasets (8 of which are public).
 
 
