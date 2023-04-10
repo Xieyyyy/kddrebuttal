@@ -23,11 +23,11 @@ authors of this benchmark.
 These compared studies are:
 > 1. Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks. KDD, 2020. ([paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403118)) ([code](https://github.com/nnzhan/MTGNN))
 
-2. Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting. NeurIPS, 2019. ([paper](https://arxiv.org/pdf/1907.00235.pdf))
+> 2. Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting. NeurIPS, 2019. ([paper](https://arxiv.org/pdf/1907.00235.pdf))
 
-3. Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering. ICLR, 2021. ([paper](https://arxiv.org/pdf/2006.04727.pdf)) ([code](https://github.com/HerreraKrachTeichmann/NJODE))
+> 3. Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering. ICLR, 2021. ([paper](https://arxiv.org/pdf/2006.04727.pdf)) ([code](https://github.com/HerreraKrachTeichmann/NJODE))
 
-4. Informer: Beyond efficient transformer for long sequence time-series forecasting. AAAI, 2021. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325))
+> 4. Informer: Beyond efficient transformer for long sequence time-series forecasting. AAAI, 2021. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325))
 
 
 
