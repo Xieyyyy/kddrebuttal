@@ -21,33 +21,33 @@ studies that has been presented in recent years on 9 datasets (8 of which are pu
 authors of this benchmark.
 
 These compared studies are:
-> 1. Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks. KDD, 2020. ([paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403118)) ([code](https://github.com/nnzhan/MTGNN))
+> 1. Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks. KDD, 2020. (MTGNN) ([paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403118)) ([code](https://github.com/nnzhan/MTGNN))
 
-> 2. Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting. NeurIPS, 2019. ([paper](https://arxiv.org/pdf/1907.00235.pdf))
+> 2. Enhancing the locality and breaking the memory bottleneck of transformer on time series forecasting. NeurIPS, 2019. (LogTrans) ([paper](https://arxiv.org/pdf/1907.00235.pdf))
 
-> 3. Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering. ICLR, 2021. ([paper](https://arxiv.org/pdf/2006.04727.pdf)) ([code](https://github.com/HerreraKrachTeichmann/NJODE))
+> 3. Neural Jump Ordinary Differential Equations: Consistent Continuous-Time Prediction and Filtering. ICLR, 2021. (NJODE) ([paper](https://arxiv.org/pdf/2006.04727.pdf)) ([code](https://github.com/HerreraKrachTeichmann/NJODE))
 
-> 4. Informer: Beyond efficient transformer for long sequence time-series forecasting. AAAI, 2021. ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325))
+> 4. Informer: Beyond efficient transformer for long sequence time-series forecasting. AAAI, 2021. (Informer) ([paper](https://ojs.aaai.org/index.php/AAAI/article/view/17325))
 
-> 5. Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting. NeurIPS, 2021.([paper](https://arxiv.org/pdf/2106.13008.pdf))
+> 5. Autoformer: Decomposition transformers with auto-correlation for long-term series forecasting. NeurIPS, 2021. (Autoformer) ([paper](https://arxiv.org/pdf/2106.13008.pdf))
 
-> 6. Pyraformer: Low-complexity pyramidal attention for long-range time series modeling and forecasting. ICLR, 2022. ([paper](https://openreview.net/forum?id=0EXmFzUn5I))
+> 6. Pyraformer: Low-complexity pyramidal attention for long-range time series modeling and forecasting. ICLR, 2022. (Pyraformer) ([paper](https://openreview.net/forum?id=0EXmFzUn5I))
 
-> 7. FEDformer: Frequency enhanced decomposed transformer for long-term series forecasting. ICML, 2022. ([paper](https://arxiv.org/pdf/2201.12740.pdf))
+> 7. FEDformer: Frequency enhanced decomposed transformer for long-term series forecasting. ICML, 2022. (Fedformer) ([paper](https://arxiv.org/pdf/2201.12740.pdf))
 
-> 8. Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting. NeurIPS, 2022. ([paper](https://openreview.net/forum?id=ucNDIDRNjjv))
+> 8. Non-stationary Transformers: Exploring the Stationarity in Time Series Forecasting. NeurIPS, 2022. (NSTrans) ([paper](https://openreview.net/forum?id=ucNDIDRNjjv))
 
-> 9. Etsformer: Exponential smoothing transformers for time-series forecasting. NeurIPS, 2022. ([paper](https://openreview.net/forum?id=5m_3whfo483))
+> 9. Etsformer: Exponential smoothing transformers for time-series forecasting. NeurIPS, 2022. (ETSformer)  ([paper](https://openreview.net/forum?id=5m_3whfo483))
 
-> 10. MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting. ICLR, 2023. ([paper](https://openreview.net/forum?id=zt53IDUR1U))
+> 10. MICN: Multi-scale Local and Global Context Modeling for Long-term Series Forecasting. ICLR, 2023. (MICN) ([paper](https://openreview.net/forum?id=zt53IDUR1U))
 
-> 11. Are Transformers Effective for Time Series Forecasting? AAAI, 2023. ([paper](https://arxiv.org/abs/2205.13504))
+> 11. Are Transformers Effective for Time Series Forecasting? AAAI, 2023. (DLinear) ([paper](https://arxiv.org/abs/2205.13504))
 
-> 12. Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting. ICLR, 2023. ([paper](https://openreview.net/forum?id=vSVLM2j9eie))
+> 12. Crossformer: Transformer utilizing cross-dimension dependency for multivariate time series forecasting. ICLR, 2023. (Crossformer) ([paper](https://openreview.net/forum?id=vSVLM2j9eie))
 
-> 13. Less is more: Fast multivariate time series forecasting with light sampling-oriented mlp structures. Arxiv, 2022. ([paper](https://arxiv.org/abs/2207.01186))
+> 13. Less is more: Fast multivariate time series forecasting with light sampling-oriented mlp structures. Arxiv, 2022. (LightTS) ([paper](https://arxiv.org/abs/2207.01186))
 
-> 14. TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ICLR, 2023. ([paper](https://openreview.net/forum?id=ju_Uqw384Oq))
+> 14. TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ICLR, 2023. (TimesNet) ([paper](https://openreview.net/forum?id=ju_Uqw384Oq))
 
 
 These studies include Transformer based methods (2, 4, 5, 6, 7, 8, 9,and 12), convolutional neural networks based methods (1, 10, and 14), 
