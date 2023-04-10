@@ -20,6 +20,11 @@ We have utilized a fair third party benchmark that is publicly accessible ([link
 studies that has been presented in recent years on 9 datasets (8 of which are public). We would like to express our sincere appreciation to the 
 authors of this benchmark.
 
+These compared studies are:
+> 1. Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks. KDD, 2020. ([paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403118)) ([code](https://github.com/nnzhan/MTGNN))
+
+2.  
+
 
 
  
