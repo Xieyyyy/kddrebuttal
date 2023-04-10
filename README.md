@@ -56,7 +56,7 @@ We have rewritten the code of 1 and 3 to perform our experiments, the rest of th
 
 These experiments are conducted on 9 datasets: illness, stock, electricity, traffic, weather, ETT series (contains 4). 
 These datasets can be directly obtained in ([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
-The stock data is available at https://www.csmar.com/channels/31.html. 
+The stock data is available at ([link](https://www.csmar.com/channels/31.html)). 
 
 
 
