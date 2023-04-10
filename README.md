@@ -58,8 +58,10 @@ These experiments are conducted on 9 datasets: illness, stock (no public source 
 These datasets can be directly obtained in ([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
 
 The detailed performance comparison:
-![Results](performance.pdf)
+![Results](img.png)
 
+
+Higher resolution image please see ([results](./performance.pdf))
 
 
 
