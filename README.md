@@ -65,6 +65,13 @@ Higher resolution image please see ([results](./performance.pdf))
 
 ## Supplementary efficiency comparisons
 
+In this section, we perform efficiency comparisons with several baselines including 
+Transformer based methods (Informer, Autoformer, and Fedformer), MLP based (DLinear), and 
+convolutional neural network based methods (MICN and TimeNet). 
+The efficiency comparisons will be conducted in terms of number of parameters (million), 
+time consumption (seconds per epoch), and memory usage (GB), respectively denoted as 
+\# Para, TC, and MU for short.
+
 
 
  
