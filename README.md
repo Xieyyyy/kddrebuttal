@@ -101,9 +101,12 @@ and use TSNE dimensionality reduction algorithm to project the representations i
 1-dimensional space. 
 We compare the sequence after dimensionality reduction and the original input sequence, 
 it obviously that the sequence after dimensionality reduction seriously distorts the 
-sequency of the original input, shown as:
+sequence of the original input, shown as:
 ![Comparison](latent_eff.png)
 
 
 
-Higher resolution image please see ([representations](./latent_eff.pdf))
+Higher resolution image please see ([representations](./latent_eff.pdf))\
+
+Note that this is just an assumption based on the experimental phenomenon. In the future, we will 
+pay more attention to this phenomenon and try to explain it. 
