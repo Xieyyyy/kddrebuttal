@@ -61,7 +61,7 @@ The detailed performance comparison:
 ![Results](performance_comp.png)
 
 
-Higher resolution image please see ([results](./performance_comp.pdf))
+Higher resolution image please see ([Link](./performance_comp.pdf))
 
 ## 3. Supplementary efficiency comparisons
 
@@ -77,7 +77,7 @@ time consumption (seconds per epoch), and memory usage (GB), respectively denote
 The detailed performance comparison:
 ![Efficiency](efficiency_comp.png)
 
-Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
+Higher resolution image please see ([Link](./effeciency_comp.pdf))
 
 ## 4. A visualization for comparison between high-dimensional embeddings and raw features.
 
@@ -106,7 +106,7 @@ sequence of the original input, shown as:
 
 
 
-Higher resolution image please see ([representations](./latent_eff.pdf)).
+Higher resolution image please see ([Link](./latent_eff.pdf)).
 
 Note that this is just an assumption based on the experimental phenomenon. In the future, we will 
 pay more attention to this phenomenon and try to explain it. 
