@@ -68,9 +68,6 @@ the remaining datasets can be obtained directly from
 The detailed performance comparison:
 ![Results](performance_comp.png)
 
-
-Higher resolution image please see ([Link](./performance_comp.pdf))
-
 ## 3. Supplementary efficiency comparisons
 
 In this section, we will compare the efficiency of our approach against several baselines, 
@@ -99,7 +96,5 @@ Specifically, we have extracted the latent representations after the first proje
 ![Comparison](latent_eff.png)
 
 
-
-Higher resolution image please see ([Link](./latent_eff.pdf)).
 
 Please note that this is just an assumption based on the experimental phenomenon. In the future, we plan to focus more on this phenomenon and try to provide a more detailed explanation.
