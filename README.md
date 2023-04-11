@@ -84,7 +84,7 @@ Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
 
 In this paper, we directly use the raw features rather than performing high-dimensional 
 embeddings. And we found that the former strategy can perform better than the latter, shoun as
-the performance comparison of ablation model "LAMEE (embeddings)" Section 4.3. 
+the performance comparison of ablation model "LAMEE (embeddings)" in Section 4.3. 
 
 
 
