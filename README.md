@@ -2,23 +2,25 @@
 
 ## 1. Introduction
 
-The anonymous repository is built for showing the supplementary experiments during the 
-rebuttal and response period of paper "LAMEE: A Light All-MLP Framework Leveraging Joint Time-Frequency Information for 
-Time Series Prediction" (paper id 191) in SIGKDD 2023.
+We have created an anonymous repository specifically designed to showcase 
+supplementary experiments during the rebuttal and response period for the paper 
+titled 'LAMEE: A Light All-MLP Framework Leveraging Joint Time-Frequency Information for 
+Time Series Prediction' (paper ID 191) in SIGKDD 2023.
 
-Sperifically, we conduct three types of supplementary experiments:
+The supplementary experiments can be classified into three types:
 > E1: Supplementary performance comparisons.
 
 > E2: Supplementary effeciency comparisons.
 
-> E3: A visualization for comparison between high-dimensional embeddings and raw features.
+> E3: A visualization comparing high-dimensional embeddings and raw features
 
 
 ## 2. Supplementary performance comparisons
 
-We have utilized a fair third party benchmark that is publicly accessible ([link](https://github.com/thuml/Time-Series-Library)) to compare 14 influential time series forecasting 
-studies that has been presented in recent years on 9 datasets (8 of which are public). We would like to express our sincere appreciation to the 
-authors of this benchmark.
+We have used a publicly available and fair third-party benchmark ([link](https://github.com/thuml/Time-Series-Library))
+compare 14 significant time series forecasting studies that have been presented in 
+recent years on nine datasets, out of which eight are public. We would like to extend 
+our sincere appreciation to the authors of this benchmark for their invaluable contribution.
 
 These compared studies are:
 > 1. Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks. KDD, 2020. (MTGNN) ([paper](https://dl.acm.org/doi/abs/10.1145/3394486.3403118)) ([code](https://github.com/nnzhan/MTGNN))
@@ -50,12 +52,18 @@ These compared studies are:
 > 14. TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis. ICLR, 2023. (TimesNet) ([paper](https://openreview.net/forum?id=ju_Uqw384Oq))
 
 
-These studies include Transformer based methods (2, 4, 5, 6, 7, 8, 9,and 12), convolutional neural networks based methods (1, 10, and 14), 
-neural ordinary differential equations based method (3), and multi-layer perceptron based methods (11 and 13).
-We have rewritten the code of 1 and 3 to perform our experiments, the rest of the code is taken directly from this benchmark.
+The selected studies comprise Transformer-based methods (2, 4, 5, 6, 7, 8, 9, and 12), 
+convolutional neural network-based methods (1, 10, and 14), neural ordinary differential 
+equation-based methods (3), and multi-layer perceptron-based methods (11 and 13). 
+For our experiments, we have rewritten the code of methods 1 and 3, while the remaining 
+code has been taken directly from the benchmark.
 
-These experiments are conducted on 9 datasets: illness, stock (not public for now due to privacy and economic concerns), electricity, traffic, weather, ETT series (contains 4 datasets). 
-These datasets can be directly obtained in ([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
+We have conducted these experiments on a total of nine datasets, 
+which include illness, electricity, traffic, weather, 
+and the ETT series (which contains four datasets). 
+While the stock dataset is not currently publicly available due to privacy and economic concerns, 
+the remaining datasets can be obtained directly from 
+([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
 
 The detailed performance comparison:
 ![Results](performance_comp.png)
@@ -65,48 +73,33 @@ Higher resolution image please see ([Link](./performance_comp.pdf))
 
 ## 3. Supplementary efficiency comparisons
 
-In this section, we perform efficiency comparisons with several baselines including 
-Transformer based methods (Informer, Autoformer, and Fedformer), MLP based (DLinear), and 
-convolutional neural network based methods (MICN and TimeNet). 
+In this section, we will compare the efficiency of our approach against several baselines, 
+including Transformer-based methods (Informer, Autoformer, and Fedformer), 
+MLP-based method (DLinear), and convolutional neural network-based methods (MICN and TimesNet).
 
-Specifically, 
-the efficiency comparisons will be conducted in terms of number of parameters (million), 
-time consumption (seconds per epoch), and memory usage (GB), respectively denoted as 
-\# Para, TC, and MU for short. 
+We will specifically evaluate the efficiency comparisons based on the number of parameters 
+(in millions), time consumption (in seconds per epoch), and memory usage (in GB). 
+For brevity, we will refer to these metrics as # Para, TC, and MU, respectively.
 
 The detailed performance comparison:
 ![Efficiency](efficiency_comp.png)
 
 Higher resolution image please see ([Link](./effeciency_comp.pdf))
 
-## 4. A visualization for comparison between high-dimensional embeddings and raw features.
+## 4. A visualization comparing high-dimensional embeddings and raw features
 
 
-In this paper, we directly use the raw features rather than performing high-dimensional 
-embeddings. And we found that the former strategy can perform better than the latter, shown as
-the performance comparison of ablation model "LAMEE (embeddings)" in Section 4.3.  
+In this paper, we have used raw features directly instead of using high-dimensional embeddings. We have found that this strategy performs better than the latter, as shown in the performance comparison of the ablation model 'LAMEE (embeddings)' in Section 4.3.
 
+This means that the feature dimension remains constant across the entire model, and the dimension of the latent space is equal to the feature dimension.
 
-This means that the feature dimension will remain constant across the entire model, and the dimension
-of latent space equals to the feature dimension. 
+From a matrix theory perspective, we assume that performing high-dimensional embeddings can result in non-full rank latent representations in high-dimensional spaces, leading to information redundancy. We have conducted an experiment to illustrate this phenomenon.
 
-From the view of matrix theory, we assume that performing high-dimensional
-embeddings will yield a non-full rank of latent representations in high-dimensional
-spaces, and result in information redundancy. We simply conduct an experiment to illustrate the 
-phenomenon. 
-
-Specifically, we extract the latent representations after the first projection in a 
-well-trained Transformer model, 
-and use TSNE dimensionality reduction algorithm to project the representations into an
-1-dimensional space. 
-We compare the sequence after dimensionality reduction and the original input sequence, 
-it obviously that the sequence after dimensionality reduction seriously distorts the 
-sequence of the original input, shown as:
+Specifically, we have extracted the latent representations after the first projection in a well-trained Transformer model and used the TSNE dimensionality reduction algorithm to project the representations into a one-dimensional space. We have compared the sequence after dimensionality reduction with the original input sequence, and it is apparent that the sequence after dimensionality reduction seriously distorts the sequence of the original input, as shown below:
 ![Comparison](latent_eff.png)
 
 
 
 Higher resolution image please see ([Link](./latent_eff.pdf)).
 
-Note that this is just an assumption based on the experimental phenomenon. In the future, we will 
-pay more attention to this phenomenon and try to explain it. 
+Please note that this is just an assumption based on the experimental phenomenon. In the future, we plan to focus more on this phenomenon and try to provide a more detailed explanation.
