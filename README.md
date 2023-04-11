@@ -79,5 +79,13 @@ The detailed performance comparison:
 
 Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
 
+##  A visualization for comparison between high-dimensional embeddings and raw features.
+
+
+In this paper, we directly use the raw features rather than performing high-dimensional 
+embeddings. And we found that the former strategy can perform better than the latter, shoun as
+the performance comparison of ablation model "LAMEE (embeddings)" Section 4.3. 
+
+
 
  
