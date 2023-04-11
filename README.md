@@ -1,6 +1,6 @@
 # Supplementary experiments
 
-## Introduction
+## 1. Introduction
 
 The anonymous repository is built for showing the supplementary experiments during the 
 rebuttal and response period of paper "LAMEE: A Light All-MLP Framework Leveraging Joint Time-Frequency Information for 
@@ -14,7 +14,7 @@ Sperifically, we conduct three types of supplementary experiments:
 > E3: A visualization for comparison between high-dimensional embeddings and raw features.
 
 
-## Supplementary performance comparisons
+## 2, Supplementary performance comparisons
 
 We have utilized a fair third party benchmark that is publicly accessible ([link](https://github.com/thuml/Time-Series-Library)) to compare 14 influential time series forecasting 
 studies that has been presented in recent years on 9 datasets (8 of which are public). We would like to express our sincere appreciation to the 
@@ -63,7 +63,7 @@ The detailed performance comparison:
 
 Higher resolution image please see ([results](./performance_comp.pdf))
 
-## Supplementary efficiency comparisons
+## 3. Supplementary efficiency comparisons
 
 In this section, we perform efficiency comparisons with several baselines including 
 Transformer based methods (Informer, Autoformer, and Fedformer), MLP based (DLinear), and 
@@ -79,7 +79,7 @@ The detailed performance comparison:
 
 Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
 
-##  A visualization for comparison between high-dimensional embeddings and raw features.
+## 4. A visualization for comparison between high-dimensional embeddings and raw features.
 
 
 In this paper, we directly use the raw features rather than performing high-dimensional 
