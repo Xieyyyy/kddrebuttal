@@ -79,9 +79,9 @@ We will specifically evaluate the efficiency comparisons based on the number of 
 For brevity, we will refer to these metrics as # Para, TC, and MU, respectively.
 
 The detailed performance comparison:
-<img src="efficiency_comp.png" width="100%" />
+![Results](effeciency_comp.png)
 
-Higher resolution image please see ([Link](./effeciency_comp.pdf))
+[//]: # (Higher resolution image please see &#40;[Link]&#40;./effeciency_comp.pdf&#41;&#41;)
 
 ## 4. A visualization comparing high-dimensional embeddings and raw features
 
