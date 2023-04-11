@@ -58,10 +58,10 @@ These experiments are conducted on 9 datasets: illness, stock (not public for no
 These datasets can be directly obtained in ([BaiduCloud](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy)).
 
 The detailed performance comparison:
-![Results](img.png)
+![Results](performance_comp.png)
 
 
-Higher resolution image please see ([results](./performance.pdf))
+Higher resolution image please see ([results](./performance_comp.pdf))
 
 ## Supplementary efficiency comparisons
 
@@ -72,8 +72,12 @@ convolutional neural network based methods (MICN and TimeNet).
 Specifically, 
 the efficiency comparisons will be conducted in terms of number of parameters (million), 
 time consumption (seconds per epoch), and memory usage (GB), respectively denoted as 
-\# Para, TC, and MU for short.
+\# Para, TC, and MU for short. 
 
+The detailed performance comparison:
+![Efficiency](efficiency_comp.png)
+
+Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
 
 
  
