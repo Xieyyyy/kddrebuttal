@@ -102,7 +102,7 @@ and use TSNE dimensionality reduction algorithm to project the representations i
 We compare the sequence after dimensionality reduction and the original input sequence, 
 it obviously that the sequence after dimensionality reduction seriously distorts the 
 sequency of the original input, shown as:
-![Comparison](latent_eff.png)
+![Comparison](latent_eff.pdf)
 
 
  
