@@ -106,7 +106,7 @@ sequence of the original input, shown as:
 
 
 
-Higher resolution image please see ([representations](./latent_eff.pdf))\
+Higher resolution image please see ([representations](./latent_eff.pdf)).
 
 Note that this is just an assumption based on the experimental phenomenon. In the future, we will 
 pay more attention to this phenomenon and try to explain it. 
