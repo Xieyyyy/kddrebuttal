@@ -82,7 +82,7 @@ We will specifically evaluate the efficiency comparisons based on the number of 
 For brevity, we will refer to these metrics as # Para, TC, and MU, respectively.
 
 The detailed performance comparison:
-![Efficiency](efficiency_comp.png)
+<img src="efficiency_comp.png" width="100%" />
 
 Higher resolution image please see ([Link](./effeciency_comp.pdf))
 
