@@ -90,9 +90,19 @@ the performance comparison of ablation model "LAMEE (embeddings)" in Section 4.3
 This means that the feature dimension will remain constant across the entire model, and the dimension
 of latent space equals to the feature dimension. 
 
-From the view of matrix theory, performing high-dimensional
+From the view of matrix theory, we assume that performing high-dimensional
 embeddings will yield a non-full rank of latent representations in high-dimensional
-spaces, and result in information redundancy. 
+spaces, and result in information redundancy. We simply conduct an experiment to illustrate the 
+phenomenon. 
+
+Specifically, we extract the latent representations after the first projection in a 
+well-trained Transformer model, 
+and use TSNE dimensionality reduction algorithm to project the representations into an
+1-dimensional space. 
+We compare the sequence after dimensionality reduction and the original input sequence, 
+it obviously that the sequence after dimensionality reduction seriously distorts the 
+sequency of the original input, shown as:
+![Comparison](latent_eff.png)
 
 
  
