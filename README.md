@@ -14,7 +14,7 @@ Sperifically, we conduct three types of supplementary experiments:
 > E3: A visualization for comparison between high-dimensional embeddings and raw features.
 
 
-## 2, Supplementary performance comparisons
+## 2. Supplementary performance comparisons
 
 We have utilized a fair third party benchmark that is publicly accessible ([link](https://github.com/thuml/Time-Series-Library)) to compare 14 influential time series forecasting 
 studies that has been presented in recent years on 9 datasets (8 of which are public). We would like to express our sincere appreciation to the 
@@ -83,9 +83,16 @@ Higher resolution image please see ([efficiency](./effeciency_comp.pdf))
 
 
 In this paper, we directly use the raw features rather than performing high-dimensional 
-embeddings. And we found that the former strategy can perform better than the latter, shoun as
-the performance comparison of ablation model "LAMEE (embeddings)" in Section 4.3. 
+embeddings. And we found that the former strategy can perform better than the latter, shown as
+the performance comparison of ablation model "LAMEE (embeddings)" in Section 4.3.  
 
+
+This means that the feature dimension will remain constant across the entire model, and the dimension
+of latent space equals to the feature dimension. 
+
+From the view of matrix theory, performing high-dimensional
+embeddings will yield a non-full rank of latent representations in high-dimensional
+spaces, and result in information redundancy. 
 
 
  
