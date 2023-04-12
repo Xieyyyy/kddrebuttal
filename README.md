@@ -81,9 +81,17 @@ For brevity, we will refer to these metrics as # Para, TC, and MU, respectively.
 The detailed performance comparison:
 ![Results](effeciency_comp.png)
 
+## 4. An example de-noising methods.
+In response to the Q1 of Reviewer ucRn, we give an example to compare the de-noising methods of traditional low-passing filtering and 
+our proposed decomposition before low-passing filtering.
+
+Specifically, we intercept a section signal with length of 180 from the electricity dataset, and
+add Gaussian noises with a mean of 0 and a variance of 0.5 to the signal. 
+
+
 [//]: # (Higher resolution image please see &#40;[Link]&#40;./effeciency_comp.pdf&#41;&#41;)
 
-## 4. A visualization comparing high-dimensional embeddings and raw features
+## 5. A visualization comparing high-dimensional embeddings and raw features
 
 
 In this paper, we have used raw features directly instead of using high-dimensional embeddings. We have found that this strategy performs better than the latter, as shown in the performance comparison of the ablation model 'LAMEE (embeddings)' in Section 4.3.
