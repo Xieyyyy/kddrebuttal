@@ -12,7 +12,9 @@ The supplementary experiments can be classified into three types:
 
 > E2: Supplementary effeciency comparisons.
 
-> E3: A visualization comparing high-dimensional embeddings and raw features
+> E3: An example comparing de-noising methods. 
+
+> E4: A visualization comparing high-dimensional embeddings and raw features
 
 
 ## 2. Supplementary performance comparisons
@@ -81,12 +83,21 @@ For brevity, we will refer to these metrics as # Para, TC, and MU, respectively.
 The detailed performance comparison:
 ![Results](effeciency_comp.png)
 
-## 4. An example de-noising methods.
+## 4. An example comparing de-noising methods.
 In response to the Q1 of Reviewer ucRn, we give an example to compare the de-noising methods of traditional low-passing filtering and 
 our proposed decomposition before low-passing filtering.
 
 Specifically, we intercept a section signal with length of 180 from the electricity dataset, and
-add Gaussian noises with a mean of 0 and a variance of 0.5 to the signal. 
+add Gaussian noises with a mean of 0 and a variance of 0.5 to the signal, shown as Fig (1). 
+The Mean Absolute Errors between the noised signal and the original signal is 0.397, and the corresponded Pearson correlation between the 
+both is 0.497. 
+
+If we only use the traditional low-passing filtering to de-noise the noised signal, the Mean Absolute Errors between the  both is 0.200, and 
+the Pearson correlation is 0.744, shown as Fig (2). If a time series decomposition operation can be performed firstly, and then only perform low-passing filtering 
+on the seasonal term, as it do in our paper, the Mean Absolute Errors can be reduced to 0.105, and
+the Pearson correlation can be enhanced to 0.820, shown as Fig (3). 
+
+![denoise](denoise_comp.png)
 
 
 [//]: # (Higher resolution image please see &#40;[Link]&#40;./effeciency_comp.pdf&#41;&#41;)
