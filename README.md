@@ -97,7 +97,7 @@ the Pearson correlation is 0.744, shown as Fig (2). If a time series decompositi
 on the seasonal term, as it do in our paper, the Mean Absolute Errors can be reduced to 0.105, and
 the Pearson correlation can be enhanced to 0.820, shown as Fig (3). 
 
-![denoise](denoise_comp.png)
+![Denoise](denoise_comp.png)
 
 
 [//]: # (Higher resolution image please see &#40;[Link]&#40;./effeciency_comp.pdf&#41;&#41;)
