@@ -104,6 +104,7 @@ the Pearson correlation can be enhanced to 0.820, shown as Fig (3).
 
 ## 5. A visualization comparing high-dimensional embeddings and raw features
 
+In response to the Q1 of Reviewer ucRn, we conduct the visualization comparing the high-dimensional embeddings and raw features.
 
 In this paper, we have used raw features directly instead of using high-dimensional embeddings. We have found that this strategy performs better than the latter, as shown in the performance comparison of the ablation model 'LAMEE (embeddings)' in Section 4.3.
 
