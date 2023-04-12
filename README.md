@@ -92,10 +92,30 @@ add Gaussian noises with a mean of 0 and a variance of 0.5 to the signal, shown 
 The Mean Absolute Errors between the noised signal and the original signal is 0.397, and the corresponded Pearson correlation between the 
 both is 0.497. 
 
-If we only use the traditional low-passing filtering to de-noise the noised signal, the Mean Absolute Errors between the  both is 0.200, and 
-the Pearson correlation is 0.744, shown as Fig (2). If a time series decomposition operation can be performed firstly, and then only perform low-passing filtering 
+If we only use the individual low-passing filtering to de-noise the noised signal, the Mean Absolute Errors between the  both is 0.200, and 
+the Pearson correlation is 0.744, shown as Fig (2). If a time series decomposition operation can be performed firstly, 
+and then only perform low-passing filtering 
 on the seasonal term, as it do in our paper, the Mean Absolute Errors can be reduced to 0.105, and
 the Pearson correlation can be enhanced to 0.820, shown as Fig (3). 
+
+We draw the frequency spectrum to illustrate our motivation: Fig (4) is the frequency spectrum of the original 
+signal, corresponds the blue line of Fig (1), it can be seen that the high-frequency components are informative.
+Fig (5) is the frequency spectrum of the noised
+signal, corresponds the orange line of Fig (1), which can be seen that the high-frequency components obviously have larger amplitudes. 
+Individual low-passing filtering will directly delete the high-frequency components, which implies that informative components are 
+also deleted, shown as Fig (6). 
+If a time series decomposition operation can be performed firstly, we will remain the high-frequency components of trend terms, shown as 
+Fig (7).
+Note that because the seasonal terms always correspond to the high-frequency components (it can be 
+reflected in the fact that the low-frequency components of which have larger amplitudes),
+and the trend terms always correspond to the low-frequency components  (it can be
+reflected in the fact that the mid-frequency components of which have larger amplitudes), 
+the amplitudes of high-frequency components of trend terms are not large, but that of 
+seasonal terms have excessive amplitudes, shown as Fig (8). Thus, these high-frequency components 
+with excessive amplitudes will distort the original signal, which can be recognized as the noise and 
+be deleted, shown as Fig (9). 
+Therefore, when the seasonal and trend terms are merged in an adding manner, we can remain the 
+informative high-frequency components while filtering the noise, shown as Fig (10). 
 
 ![Denoise](denoise_comp.png)
 
