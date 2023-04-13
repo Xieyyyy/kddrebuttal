@@ -133,7 +133,7 @@ This means that the feature dimension remains constant across the entire model, 
 From a matrix theory perspective, we assume that performing high-dimensional embeddings can result in non-full rank latent representations in high-dimensional spaces, leading to information redundancy. We have conducted an experiment to illustrate this phenomenon.
 
 Specifically, we have extracted the latent representations after the first projection in a well-trained Transformer model and used the TSNE dimensionality reduction algorithm to project the representations into a one-dimensional space. We have compared the sequence after dimensionality reduction with the original input sequence, and it is apparent that the sequence after dimensionality reduction seriously distorts the sequence of the original input, as shown below:
-![Comparison](latent_eff.png)
+![Comparison](LatentRep.png)
 
 
 
